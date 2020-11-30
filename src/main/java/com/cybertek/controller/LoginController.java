@@ -16,4 +16,105 @@ public class LoginController {
 		return "welcome";
 	}
 
+	//@RequestMapping("/welcome")
+	//	public String welcome(){
+	//		return "welcome";
+	//	}@RequestMapping("/welcome")
+	//	public String welcome(){
+	//		return "welcome";
+	//	}@RequestMapping("/welcome")
+	//	public String welcome(){
+	//		return "welcome";
+	//	}@RequestMapping("/welcome")
+	//	public String welcome(){
+	//		return "welcome";
+	//	}@RequestMapping("/welcome")
+	//	public String welcome(){
+	//		return "welcome";
+	//	}@RequestMapping("/welcome")
+	//	public String welcome(){
+	//		return "welcome";
+	//	}@RequestMapping("/welcome")
+	//	public String welcome(){
+	//		return "welcome";
+	//	}@RequestMapping("/welcome")
+	//	public String welcome(){
+	//		return "welcome";
+	//	}@RequestMapping("/welcome")
+	//	public String welcome(){
+	//		return "welcome";
+	//	}@RequestMapping("/welcome")
+	//	public String welcome(){
+	//		return "welcome";
+	//	}@RequestMapping("/welcome")
+	//	public String welcome(){
+	//		return "welcome";
+	//	}@RequestMapping("/welcome")
+	//	public String welcome(){
+	//		return "welcome";
+	//	}@RequestMapping("/welcome")
+	//	public String welcome(){
+	//		return "welcome";
+	//	}@RequestMapping("/welcome")
+	//	public String welcome(){
+	//		return "welcome";
+	//	}@RequestMapping("/welcome")
+	//	public String welcome(){
+	//		return "welcome";
+	//	}@RequestMapping("/welcome")
+	//	public String welcome(){
+	//		return "welcome";
+	//	}@RequestMapping("/welcome")
+	//	public String welcome(){
+	//		return "welcome";
+	//	}@RequestMapping("/welcome")
+	//	public String welcome(){
+	//		return "welcome";
+	//	}@RequestMapping("/welcome")
+	//	public String welcome(){
+	//		return "welcome";
+	//	}@RequestMapping("/welcome")
+	//	public String welcome(){
+	//		return "welcome";
+	//	}@RequestMapping("/welcome")
+	//	public String welcome(){
+	//		return "welcome";
+	//	}@RequestMapping("/welcome")
+	//	public String welcome(){
+	//		return "welcome";
+	//	}@RequestMapping("/welcome")
+	//	public String welcome(){
+	//		return "welcome";
+	//	}@RequestMapping("/welcome")
+	//	public String welcome(){
+	//		return "welcome";
+	//	}@RequestMapping("/welcome")
+	//	public String welcome(){
+	//		return "welcome";
+	//	}@RequestMapping("/welcome")
+	//	public String welcome(){
+	//		return "welcome";
+	//	}@RequestMapping("/welcome")
+	//	public String welcome(){
+	//		return "welcome";
+	//	}@RequestMapping("/welcome")
+	//	public String welcome(){
+	//		return "welcome";
+	//	}@RequestMapping("/welcome")
+	//	public String welcome(){
+	//		return "welcome";
+	//	}@RequestMapping("/welcome")
+	//	public String welcome(){
+	//		return "welcome";
+	//	}@RequestMapping("/welcome")
+	//	public String welcome(){
+	//		return "welcome";
+	//	}@RequestMapping("/welcome")
+	//	public String welcome(){
+	//		return "welcome";
+	//	}@RequestMapping("/welcome")
+	//	public String welcome(){
+	//		return "welcome";
+	//	}
+
 }
