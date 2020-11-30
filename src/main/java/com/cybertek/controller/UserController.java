@@ -11,6 +11,5 @@ public class UserController {
     @GetMapping("/create")
     public String createUser(){
         return "/user/create";
-        //user/create
     }
 }
