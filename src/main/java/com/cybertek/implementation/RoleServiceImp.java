@@ -4,9 +4,12 @@ import com.cybertek.dto.RoleDTO;
 import com.cybertek.dto.UserDTO;
 import com.cybertek.entity.Role;
 import com.cybertek.service.RoleService;
+import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 
+@Service
 public class RoleServiceImp extends AbstractMapService<RoleDTO, Long> implements RoleService {
     @Override
     public List<RoleDTO> findAll() {
