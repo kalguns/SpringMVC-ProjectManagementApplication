@@ -1,6 +1,5 @@
 package com.cybertek.controller;
 
-import com.cybertek.dto.RoleDTO;
 import com.cybertek.dto.UserDTO;
 import com.cybertek.service.RoleService;
 import com.cybertek.service.UserService;
@@ -44,22 +43,14 @@ public class UserController {
     }
 
     @GetMapping("/update/{username}")
-    public String editUser(@PathVariable("username") String username, Model model) {
+    public String editUser(@PathVariable("username") String username,Model model){
 
-        model.addAttribute("user", userService.findById(username));
-        model.addAttribute("users", userService.findAll());
-        model.addAttribute("roles", roleService.findAll());
-
-        return "user/update";
-    }
-
-    @PostMapping("/update/{username}")
-    public String updateUser(@PathVariable("username") String username, Model model){
-
-        model.addAttribute("user", userService.findById(username));
-        model.addAttribute("users", userService.findAll());
-        model.addAttribute("roles", roleService.findAll());
+        model.addAttribute("user",userService.findById(username));
+        model.addAttribute("users",userService.findAll());
+        model.addAttribute("roles",roleService.findAll());
 
         return "/user/create";
+
     }
+
 }

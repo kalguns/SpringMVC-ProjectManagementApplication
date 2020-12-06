@@ -3,7 +3,6 @@ package com.cybertek.bootstrap;
 import com.cybertek.dto.RoleDTO;
 import com.cybertek.dto.UserDTO;
 import com.cybertek.enums.Gender;
-import com.cybertek.implementation.RoleServiceImp;
 import com.cybertek.service.RoleService;
 import com.cybertek.service.UserService;
 import org.springframework.boot.CommandLineRunner;
