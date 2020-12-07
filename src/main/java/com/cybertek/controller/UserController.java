@@ -1,6 +1,5 @@
 package com.cybertek.controller;
 
-import com.cybertek.dto.RoleDTO;
 import com.cybertek.dto.UserDTO;
 import com.cybertek.service.RoleService;
 import com.cybertek.service.UserService;
@@ -36,11 +35,11 @@ public class UserController {
 
         userService.save(user);
 
-        model.addAttribute("user", new UserDTO());
-        model.addAttribute("roles", roleService.findAll());
-        model.addAttribute("users", userService.findAll());
+//        model.addAttribute("user", new UserDTO());
+//        model.addAttribute("roles", roleService.findAll());
+//        model.addAttribute("users", userService.findAll());
 
-        return "/user/create";
+        return "redirect:/user/create";
     }
 
     @GetMapping("/update/{username}")
@@ -58,10 +57,10 @@ public class UserController {
 
         userService.update(user);
 
-        model.addAttribute("user", new UserDTO());
-        model.addAttribute("users", userService.findAll());
-        model.addAttribute("roles", roleService.findAll());
+//        model.addAttribute("user", new UserDTO());
+//        model.addAttribute("users", userService.findAll());
+//        model.addAttribute("roles", roleService.findAll());
 
-        return "/user/create";
+        return "redirect:/user/create";
     }
 }
