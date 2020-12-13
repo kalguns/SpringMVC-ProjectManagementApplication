@@ -140,10 +140,7 @@
                                                 <td th:text="${project.projectStatus}"></td>
                                                 <td>
                                                     <a th:href="@{/project/update/{id}(id=${project.getProjectCode()})}" class="btn btn-warning rounded-0">Update</a>
-                                                    <a th:href="@{/project/delete/{id}(id=${project.getProjectCode()})}" class="delete-row">
-                                                        <button type="button" class="btn btn-secondary btn-sm">Delete
-                                                        </button>
-                                                    </a>
+                                                    <a th:href="@{/project/delete/{id}(id=${project.getProjectCode()})}" class="delete-row"><button type="button" class="btn btn-secondary btn-sm">Delete</button></a>
                                                     <a th:href="@{/project/complete/{id}(id=${project.getProjectCode()})}" class="btn btn-info rounded-0">Complete</a>
                                                 </td>
                                             </tr>
